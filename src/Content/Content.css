@@ -1,6 +1,64 @@
-.container1{
-    border-right: 2px solid rgba(11, 11, 11, 0.1);
+body{
+    /* background-color: blue; */
+    background-image: url('../../public/img/paint.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.container{
+    /* display: contents; */
+    margin-left: 1px;
+    margin-bottom: 195px;
+    /* background-image: url('../../public/img/paint.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* background-color: rgb(11, 11, 52); */
+    /* margin-top: 30px; */
+    /* font-size: x-large; */
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.alert{
+    text-align: center;
+}
+
+.background-clip{
+    position: absolute;
+    right: -120px;
+    bottom: -90px;
+    width: 63.5%;
+    height: auto;
+    top: 85px;
+    z-index: -1;
+}
+
+.list{
+    border-right: 1px solid  rgba(176, 195, 183, 0.304);
+    list-style: none;
     padding-top: 85px;
-    padding-left: 10px;
-    padding-right: 3vw;
+    padding-left: 18px;
+    width: 28vh;
+}
+
+.li_con{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container1{
+    padding-top: 45px;
+    padding-left: 60px;
+    font-size: xxx-large;
+    font-weight: 600;
+    line-height: 40px;
+    color: white;
+    /* color: rgba(17, 121, 57, 0.882); */
 }

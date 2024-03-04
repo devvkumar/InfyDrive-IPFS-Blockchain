@@ -1,39 +1,65 @@
 import React from "react";
-import './Content.css'
+import "./Content.css";
 
 const Content = () => {
   return (
-    <div>
-      <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+    <>
+    <div className="container sticky-top">
+      {/* <div className="alert alert-primary alert-dismissible align-items-center " role="alert">
+        Deploy smart contract on InfyDrive's virtual machine
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div> */}
+
+      
+
+      <nav className="navbar ">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="#">
             <img
-              src="/docs/5.3/assets/brand/bootstrap-logo.svg"
+              src="../../img/logo.jpg"
               alt="Logo"
-              width="30"
-              height="24"
-              class="d-inline-block align-text-top"
+              className="d-inline-block align-text-top logo"
             />
-            Bootstrap
           </a>
         </div>
       </nav>
 
-      <div class="container1 text-center">
-        <div class="row ">
-          <div class="col-sm-1 text-center">Store</div>
-          <div class="col-sm-1">Provide</div>
-          <div class="col-sm-1">Build</div>
-          <div class="col-sm-1">Blog</div>
-        </div>
+
+      <div className="text-center ">
+        <ul className="row ">
+          <li className="col-sm-1 list  ">
+            <a href="#" className="li_con">
+              Store
+            </a>
+          </li>
+          <li className="col-sm-1 list">
+            <a href="#" className="li_con">
+              Provide
+            </a>
+          </li>
+          <li className="col-sm-1 list">
+            <a href="#" className="li_con">
+              Build
+            </a>
+          </li>
+          <li className="col-sm-1 list">
+            <a href="#" className="li_con">
+              Blog
+            </a>
+          </li>
+        </ul>
       </div>
 
-      <div className="container1 ">
+      <div className="container1 p-5 ">
         <p>InfyDrive is a decentralized storage</p>
         <p>network designed to store humanity's</p>
         <p>most important information</p>
       </div>
+      <video autoPlay loop muted plays-inline className="background-clip ">
+        <source src="../../img/earth.mp4" type="video/mp4"/>
+      </video>
     </div>
+    </>
   );
 };
 

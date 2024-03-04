@@ -1,0 +1,123 @@
+/* *{
+    overflow-x: hidden;
+} */
+
+.foot{
+    display: flex;
+    background-color: black;
+    height: 280px;
+    /* margin-top: 200px; */
+}
+
+.foo-left{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 6rem;
+    margin-top: 46px;
+}
+
+.foo-right{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 40px;
+
+}
+
+.container_foot{
+    color: white;
+    margin-left: 1px;
+    margin-top: 30px;
+    font-size: x-large;
+}
+
+.reachout{
+    position: relative;
+    color: white;
+    top: 31px;
+    left: 8rem;
+}
+
+.resources{
+    position: relative;
+    color: white;
+    top: -8rem;
+    left: 22rem;
+}
+
+.li_foot{
+    text-decoration: none;
+    color: rgb(121, 117, 117);
+    font-weight: 600;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.contact{
+    position: relative;
+    bottom: 18rem;
+    left: 40rem;
+}
+
+.foot_bar{
+    position: relative;
+    width: 34rem;
+
+}
+
+.foot_label{
+    position: relative;
+
+}
+
+.foot_input{
+    position: relative;
+    border: none;
+    background-color: black;
+    color: white;
+    top: 25px;
+    right: 13.5rem;
+    
+}
+
+/* .input::placeholder {
+    color: red !important;
+    opacity: 1;
+    } */
+
+.foot_btn{
+    /* position: relative; */
+    right: 13.5rem;
+    top: 25px;
+}
+
+.foot_hr{
+    color: white;
+    width: 20rem;
+
+}
+
+@media screen and (max-width:413px){
+    .foot{
+        top: 252rem;
+        height: 65rem;
+    }
+    .container{
+        position: relative;
+        right: 15.1rem;
+        width: 15rem;
+    }
+    .reachout{
+        position: absolute;
+        right: 22rem;
+        top: 15rem;
+    }
+    .resources{
+        top: 33rem;
+        right: 31.5rem;
+    }
+    
+}
