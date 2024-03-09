@@ -1,5 +1,4 @@
 body{
-    /* background-color: blue; */
     background-image: url('../../public/img/paint.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,15 +6,8 @@ body{
 }
 
 .container{
-    /* display: contents; */
     margin-left: 1px;
     margin-bottom: 195px;
-    /* background-image: url('../../public/img/paint.jpg');
-    background-repeat: no-repeat;
-    background-size: cover; */
-    /* background-color: rgb(11, 11, 52); */
-    /* margin-top: 30px; */
-    /* font-size: x-large; */
 }
 
 .logo{
@@ -51,6 +43,7 @@ body{
     color: white;
     font-weight: bold;
     font-size: 20px;
+    animation: slide-left 2s linear forwards; 
 }
 
 .container1{
@@ -60,5 +53,28 @@ body{
     font-weight: 600;
     line-height: 40px;
     color: white;
-    /* color: rgba(17, 121, 57, 0.882); */
+}
+
+.parra{
+    animation: slide-left 1s linear forwards; 
+}
+
+.parra_g{
+    animation: slide-left 1.5s linear forwards; 
+}
+
+@keyframes slide-left {
+    0%{
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+.li_con:hover{
+    color: rgb(50, 50, 84);
+
 }

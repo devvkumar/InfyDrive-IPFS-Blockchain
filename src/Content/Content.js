@@ -10,8 +10,6 @@ const Content = () => {
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
       </div> */}
 
-      
-
       <nav className="navbar ">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
@@ -51,12 +49,12 @@ const Content = () => {
       </div>
 
       <div className="container1 p-5 ">
-        <p>InfyDrive is a decentralized storage</p>
-        <p>network designed to store humanity's</p>
-        <p>most important information</p>
+        <p className="parra">InfyDrive is a decentralized storage</p>
+        <p className="parra">network designed to store humanity's</p>
+        <p className="parra">most important information</p>
       </div>
-      <video autoPlay loop muted plays-inline className="background-clip ">
-        <source src="../../img/earth.mp4" type="video/mp4"/>
+      <video autoPlay loop muted plays-inline className="background-clip parra_g ">
+        <source src="../../img/earth2.mp4" type="video/mp4"/>
       </video>
     </div>
     </>

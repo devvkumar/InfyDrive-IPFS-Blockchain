@@ -1,12 +1,7 @@
-/* *{
-    overflow-x: hidden;
-} */
-
 .foot{
     display: flex;
     background-color: black;
     height: 280px;
-    /* margin-top: 200px; */
 }
 
 .foo-left{
@@ -52,6 +47,11 @@
     font-weight: 600;
 }
 
+.li_foot:hover{
+    color: rgb(50, 50, 84);
+
+}
+
 ul{
     list-style-type: none;
 }
@@ -83,15 +83,13 @@ ul{
     
 }
 
-/* .input::placeholder {
-    color: red !important;
-    opacity: 1;
-    } */
-
 .foot_btn{
-    /* position: relative; */
     right: 13.5rem;
     top: 25px;
+}
+
+.foot_btn:hover{
+    color: rgb(50, 50, 84);
 }
 
 .foot_hr{
