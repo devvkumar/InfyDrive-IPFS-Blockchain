@@ -1,7 +1,7 @@
 .foot{
     display: flex;
     background-color: black;
-    height: 280px;
+    /* height: 280px; */
 }
 
 .foo-left{
@@ -83,6 +83,11 @@ ul{
     
 }
 
+.foot_input:focus{
+    background-color: transparent;
+    box-shadow: none;
+}
+
 .foot_btn{
     right: 13.5rem;
     top: 25px;
@@ -99,15 +104,15 @@ ul{
 }
 
 @media screen and (max-width:413px){
-    .foot{
+    /* .foot{
         top: 252rem;
         height: 65rem;
-    }
-    .container{
+    } */
+    /* .container{
         position: relative;
         right: 15.1rem;
         width: 15rem;
-    }
+    } */
     .reachout{
         position: absolute;
         right: 22rem;

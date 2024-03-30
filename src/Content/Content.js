@@ -32,7 +32,7 @@ const Content = () => {
           </li>
           <li className="col-sm-1 list">
             <a href="#" className="li_con">
-              Provide
+              Demmo
             </a>
           </li>
           <li className="col-sm-1 list">
@@ -54,7 +54,7 @@ const Content = () => {
         <p className="parra">most important information</p>
       </div>
       <video autoPlay loop muted plays-inline className="background-clip parra_g ">
-        <source src="../../img/earth2.mp4" type="video/mp4"/>
+        <source src="../../img/earth1.mp4" type="video/mp4"/>
       </video>
     </div>
     </>

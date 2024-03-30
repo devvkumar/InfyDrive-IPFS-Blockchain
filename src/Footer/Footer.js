@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="foot sticky-top">
       <div className="foo-left">
       <p className='container_foot'>
-        InfoDrive is an open-source <br /> cloud storage marketplace, <br /> protocol, and incentive layer.
+        InfyDrive is an open-source <br /> cloud storage marketplace, <br /> protocol, and incentive layer.
       </p>
       </div>
       <div className="foo-right">
