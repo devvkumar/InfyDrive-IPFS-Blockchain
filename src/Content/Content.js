@@ -1,14 +1,17 @@
 import React from "react";
 import "./Content.css";
+import { useNavigate } from "react-router-dom";
+import Footer from "../Footer/Footer";
 
 const Content = () => {
+  const navigate = useNavigate();
+
+  const gotoStore = () => {
+    navigate('./Store1');
+  }
   return (
     <>
     <div className="container sticky-top">
-      {/* <div className="alert alert-primary alert-dismissible align-items-center " role="alert">
-        Deploy smart contract on InfyDrive's virtual machine
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-      </div> */}
 
       <nav className="navbar ">
         <div className="container-fluid">
@@ -22,28 +25,31 @@ const Content = () => {
         </div>
       </nav>
 
-
       <div className="text-center ">
         <ul className="row ">
           <li className="col-sm-1 list  ">
-            <a href="#" className="li_con">
+            {/* <a href="../Store/Store1" className="li_con" target="_blank" rel="noopener noreferrer">
               Store
-            </a>
+            </a> */}
+            <button onClick={() => gotoStore() } type="button" class="btn li_con">Store</button>
           </li>
           <li className="col-sm-1 list">
-            <a href="#" className="li_con">
+            {/* <a href="#" className="li_con">
               Demmo
-            </a>
+            </a> */}
+            <button type="button" class="btn li_con">Demmo</button>
           </li>
           <li className="col-sm-1 list">
-            <a href="#" className="li_con">
+            {/* <a href="#" className="li_con">
               Build
-            </a>
+            </a> */}
+            <button type="button" class="btn li_con">Build</button>
           </li>
           <li className="col-sm-1 list">
-            <a href="#" className="li_con">
+            {/* <a href="#" className="li_con">
               Blog
-            </a>
+            </a> */}
+            <button type="button" class="btn li_con">Blog</button>
           </li>
         </ul>
       </div>
@@ -57,6 +63,8 @@ const Content = () => {
         <source src="../../img/earth1.mp4" type="video/mp4"/>
       </video>
     </div>
+
+    <Footer/>
     </>
   );
 };

@@ -1,0 +1,18 @@
+.infy{
+    position: relative;
+    left: 90px;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.nav_ul{
+    position: relative;
+    left: 15rem;
+    font-size: large;
+    font-weight: 600;
+}
+
+.nav_btn{
+    position: relative;
+    right: 8rem;
+}
