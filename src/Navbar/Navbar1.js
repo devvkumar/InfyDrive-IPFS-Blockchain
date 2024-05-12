@@ -61,7 +61,9 @@ const Navbar1 = () => {
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
         <button className="btn btn-outline-success" type="submit">Search</button>
       </form> */}
-      <button type="button" class="btn btn-primary nav_btn">GET STARTED</button>
+      <a href="https://663f089a5f644aa5a6002a5b--melodious-truffle-8c7fbc.netlify.app/" className="btn btn-primary nav_btn">GET STARTED</a>
+
+      {/* <button type="button" href = {"https://663f089a5f644aa5a6002a5b--melodious-truffle-8c7fbc.netlify.app/" class="btn btn-primary nav_btn">GET STARTED</button> */}
     </div>
   </div>    
 </nav>

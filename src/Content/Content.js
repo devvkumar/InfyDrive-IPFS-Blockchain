@@ -2,6 +2,7 @@ import React from "react";
 import "./Content.css";
 import { useNavigate } from "react-router-dom";
 import Footer from "../Footer/Footer";
+// import { useNavigate } from "react-router-dom";
 
 const Content = () => {
   const navigate = useNavigate();
@@ -9,6 +10,13 @@ const Content = () => {
   const gotoStore = () => {
     navigate('./Store1');
   }
+
+  const navigate2 = useNavigate();
+
+  const gotosite = () => {
+    navigate('./File name');
+  }
+  
   return (
     <>
     <div className="container sticky-top">
